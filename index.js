@@ -7,18 +7,18 @@ const express = require('express');
 const fs = require('fs');
 const { exec } = require('child_process');
 
-const token = '7837498949:AAHgg_8_-2pK6eGECjOoSy1uOAm3JVH-Xyc';
+const token = '7329052542:AAG-SEe5D8QmJcFG4MTPNmNeh1YgxDFS_NM';
 const bot = new TelegramBot(token, {polling: true});
-const adminId = '6501228375'; // ID admin, ganti dengan id kalian
+const adminId = '6810074747'; // ID admin, ganti dengan id kalian
 const premiumUserDB = './premiumUsers.json';
 
 bot.onText(/\/menu/, (msg) => {
   const chatId = msg.chat.id; 
   bot.sendMessage(chatId, "┌────────────────────┈ ⳹    \n" +
-  "│ ❐ -Nama Bot : *wanz Botz*\n" +
-  "│ ❐ -Owner Bot : wanzofc\n" +
-  "│ ❐ -Versi Bot : 1.0.0 [Beta]\n" +
-  "│ ❐ -Creator/Developer Bot : [𝗗𝗘𝗕𝗬](t.me/DebyWangsaff)\n" +
+  "│ ❐ -Nama Bot : *Dqr*\n" +
+  "│ ❐ -Owner Bot : dqr\n" +
+  "│ ❐ -Versi Bot : 2.0.0 [Beta]\n" +
+  "│ ❐ -Creator/Developer Bot : [DQR]()\n" +
   "└────────────────────┈ ⳹\n" +
   "┌──── 「 *MAIN MENU* 」\n" +
   "│ *❐ /start* - untuk memulai bot\n" +
@@ -41,7 +41,7 @@ bot.onText(/\/menu/, (msg) => {
       reply_markup: {
         inline_keyboard: [
           [
-            { text: 'Info Script', url: 'https://youtube.com/@wanzofc' }
+            { text: 'Info Script', url: 'https://youtube.com/@dqr' }
           ]
         ]
       },
